@@ -1,1 +1,7 @@
 { "names": ["Alex", "Pete", "REL", "Matt", "Patty", "Jooleeuh", "Kostanza"]}
+
+=> { names:
+      "Alex": "Kradin",
+      "Pete": "Kenna",
+      ...
+    }

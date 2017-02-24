@@ -66,6 +66,20 @@ Randomize the lines in a file.
 
 How do you shuffle an array?
 
+### Bonus
+Write a node script that takes a JSON string and parses into an object.
+
+Input: `"{ names: ["first last", "jon smith", "chris payne"]" }`
+
+Output:
+```js
+{ names:  {
+  first: "last",
+  jon: "smith",
+  chris: "payne" }
+}
+```
+
 ## Additional Resources
 
 -   [Docs | Node.js](https://nodejs.org/en/docs/)

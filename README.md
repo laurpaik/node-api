@@ -66,6 +66,8 @@ Randomize the lines in a file.
 
 How do you shuffle an array?
 
+Run your code using: `node bin/randomizer.js example.txt`
+
 ### Bonus
 Write a node script that takes a JSON string and parses into an object.
 

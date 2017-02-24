@@ -54,6 +54,15 @@ module.
 1.  [`fs.readFile(file[, options], callback)`](https://nodejs.org/dist/latest-v4.x/docs/api/fs.html#fs_fs_readfile_file_options_callback)
 1.  [`fs.writeFile(file, data[, options], callback)`](https://nodejs.org/dist/latest-v4.x/docs/api/fs.html#fs_fs_writefile_file_data_options_callback)
 
+## Discussion
+
+Are these methods JavaScript, node, or browser?
+`Math.random`
+`fs.readFile`
+`http.ClientRequest`
+`document.ready`
+`new Promise`
+
 ## Annotate-Along: `lib/copy-json.js`
 
 ## Code-Along: `hey-yall.js`

@@ -54,6 +54,15 @@ module.
 1.  [`fs.readFile(file[, options], callback)`](https://nodejs.org/dist/latest-v4.x/docs/api/fs.html#fs_fs_readfile_file_options_callback)
 1.  [`fs.writeFile(file, data[, options], callback)`](https://nodejs.org/dist/latest-v4.x/docs/api/fs.html#fs_fs_writefile_file_data_options_callback)
 
+## Discussion
+
+Are these methods JavaScript, node, or browser?
+`Math.random`
+`fs.readFile`
+`http.ClientRequest`
+`document.ready`
+`new Promise`
+
 ## Annotate-Along: `lib/copy-json.js`
 
 ## Code-Along: `hey-yall.js`
@@ -66,6 +75,22 @@ Randomize the lines in a file.
 
 How do you shuffle an array?
 
+Run your code using: `node bin/randomizer.js example.txt`
+
+### Bonus
+Write a node script that takes a JSON string and parses into an object.
+
+Input: `"{ names: ["first last", "jon smith", "chris payne"]" }`
+
+Output:
+```js
+{ names:  {
+  first: "last",
+  jon: "smith",
+  chris: "payne" }
+}
+```
+
 ## Additional Resources
 
 -   [Docs | Node.js](https://nodejs.org/en/docs/)
@@ -77,5 +102,6 @@ How do you shuffle an array?
 
 ## [License](LICENSE)
 
-1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-1. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
